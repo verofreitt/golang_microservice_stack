@@ -15,13 +15,15 @@ Este projeto fornece um exemplo real de como construir uma arquitetura moderna d
 
 ## 🧱 Estrutura do Projeto
 
-├── producer/ # REST API para produzir mensagens no Kafka
-│ └── producer.go
-├── worker/ # Worker consumindo do Kafka e salvando no MongoDB
-│ └── worker.go
-├── docker-compose.yml # Kafka, Zookeeper, MongoDB, Prometheus e Grafana
+```text
+├── producer/               # REST API para produzir mensagens no Kafka
+│   └── producer.go
+├── worker/                 # Worker consumindo do Kafka e salvando no MongoDB
+│   └── worker.go
+├── docker-compose.yml      # Kafka, Zookeeper, MongoDB, Prometheus e Grafana
 ├── go.mod
 └── README.md
+```
 
 ## 🛠️ Tecnologias Utilizadas
 
