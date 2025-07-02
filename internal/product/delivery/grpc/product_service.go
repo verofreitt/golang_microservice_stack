@@ -2,6 +2,8 @@ package grpc
 
 import (
 	"context"
+	"golang_microservice_stack/internal/models"
+	"golang_microservice_stack/internal/product"
 
 	"github.com/go-playground/validator/v10"
 	"github.com/opentracing/opentracing-go"

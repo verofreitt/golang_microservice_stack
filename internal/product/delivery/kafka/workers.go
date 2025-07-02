@@ -3,6 +3,7 @@ package kafka
 import (
 	"context"
 	"encoding/json"
+	"golang_microservice_stack/internal/models"
 	"sync"
 	"time"
 

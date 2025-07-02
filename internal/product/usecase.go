@@ -2,6 +2,7 @@ package product
 
 import (
 	"context"
+	"golang_microservice_stack/internal/models"
 
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )

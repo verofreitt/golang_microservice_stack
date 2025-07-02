@@ -3,6 +3,8 @@ package usecase
 import (
 	"context"
 	"encoding/json"
+	"golang_microservice_stack/internal/models"
+	"golang_microservice_stack/internal/product"
 	"time"
 
 	"github.com/go-redis/redis/v8"

@@ -2,6 +2,7 @@ package repository
 
 import (
 	"context"
+	"golang_microservice_stack/internal/models"
 	"time"
 
 	"github.com/opentracing/opentracing-go"

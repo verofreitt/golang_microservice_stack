@@ -3,6 +3,9 @@ package kafka
 import (
 	"context"
 	"encoding/json"
+	"golang_microservice_stack/config"
+	"golang_microservice_stack/internal/models"
+	"golang_microservice_stack/internal/product"
 	"sync"
 
 	"github.com/go-playground/validator/v10"

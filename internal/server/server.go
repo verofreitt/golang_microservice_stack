@@ -2,6 +2,12 @@ package server
 
 import (
 	"context"
+	"golang_microservice_stack/config"
+	"golang_microservice_stack/internal/interceptors"
+	"golang_microservice_stack/internal/middlewares"
+	"golang_microservice_stack/internal/product/delivery/kafka"
+	"golang_microservice_stack/internal/product/repository"
+	"golang_microservice_stack/internal/product/usecase"
 	"net"
 	"os"
 	"os/signal"

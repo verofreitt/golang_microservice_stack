@@ -2,6 +2,7 @@ package interceptors
 
 import (
 	"context"
+	"golang_microservice_stack/config"
 	"time"
 
 	"github.com/prometheus/client_golang/prometheus"

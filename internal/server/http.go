@@ -1,6 +1,7 @@
 package server
 
 import (
+	"golang_microservice_stack/docs"
 	"net/http"
 	"strings"
 	"time"

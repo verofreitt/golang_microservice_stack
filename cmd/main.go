@@ -2,6 +2,8 @@ package main
 
 import (
 	"context"
+	"golang_microservice_stack/config"
+	"golang_microservice_stack/internal/server"
 	"log"
 
 	"github.com/opentracing/opentracing-go"

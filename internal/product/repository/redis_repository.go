@@ -4,6 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	"golang_microservice_stack/internal/models"
 	"time"
 
 	"github.com/opentracing/opentracing-go"

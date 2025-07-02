@@ -1,6 +1,8 @@
 package middlewares
 
 import (
+	"golang_microservice_stack/config"
+
 	"github.com/labstack/echo/v4"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"

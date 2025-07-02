@@ -1,6 +1,9 @@
 package v1
 
 import (
+	"golang_microservice_stack/internal/middlewares"
+	"golang_microservice_stack/internal/models"
+	"golang_microservice_stack/internal/product"
 	"net/http"
 	"strconv"
 

@@ -5,6 +5,8 @@ import (
 	"encoding/json"
 	"html/template"
 	"strings"
+
+	"github.com/swaggo/swag"
 )
 
 var doc = `{
