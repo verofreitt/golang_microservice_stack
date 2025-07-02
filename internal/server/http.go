@@ -1,10 +1,11 @@
 package server
 
 import (
-	"golang_microservice_stack/docs"
 	"net/http"
 	"strings"
 	"time"
+
+	"github.com/verofreitt/golang_microservice_stack/docs"
 
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"

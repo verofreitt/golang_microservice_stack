@@ -5,6 +5,8 @@ import (
 
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"google.golang.org/protobuf/types/known/timestamppb"
+
+	productsService "github.com/verofreitt/golang_microservice_stack/proto/product"
 )
 
 // Product models

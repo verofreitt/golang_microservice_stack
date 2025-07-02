@@ -3,12 +3,12 @@ package kafka
 import (
 	"context"
 	"encoding/json"
-	"golang_microservice_stack/internal/models"
 	"sync"
 	"time"
 
 	"github.com/avast/retry-go"
 	"github.com/segmentio/kafka-go"
+	"github.com/verofreitt/golang_microservice_stack/internal/models"
 )
 
 const (

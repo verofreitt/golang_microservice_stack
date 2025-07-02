@@ -2,11 +2,12 @@ package interceptors
 
 import (
 	"context"
-	"golang_microservice_stack/config"
 	"time"
 
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
+	"github.com/verofreitt/golang_microservice_stack/config"
+	"github.com/verofreitt/golang_microservice_stack/pkg/logger"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 )

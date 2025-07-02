@@ -3,14 +3,15 @@ package kafka
 import (
 	"context"
 	"encoding/json"
-	"golang_microservice_stack/config"
-	"golang_microservice_stack/internal/models"
-	"golang_microservice_stack/internal/product"
 	"sync"
 
 	"github.com/go-playground/validator/v10"
 	"github.com/segmentio/kafka-go"
 	"github.com/segmentio/kafka-go/compress"
+	"github.com/verofreitt/golang_microservice_stack/config"
+	"github.com/verofreitt/golang_microservice_stack/internal/models"
+	"github.com/verofreitt/golang_microservice_stack/internal/product"
+	"github.com/verofreitt/golang_microservice_stack/pkg/logger"
 )
 
 // ProductsConsumerGroup struct

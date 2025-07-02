@@ -3,14 +3,18 @@ package usecase
 import (
 	"context"
 	"encoding/json"
-	"golang_microservice_stack/internal/models"
-	"golang_microservice_stack/internal/product"
 	"time"
+
+	prodKafka "github.com/verofreitt/golang_microservice_stack/internal/product/delivery/kafka"
 
 	"github.com/go-redis/redis/v8"
 	"github.com/opentracing/opentracing-go"
 	"github.com/pkg/errors"
 	"github.com/segmentio/kafka-go"
+	"github.com/verofreitt/golang_microservice_stack/internal/models"
+	"github.com/verofreitt/golang_microservice_stack/internal/product"
+	"github.com/verofreitt/golang_microservice_stack/pkg/logger"
+	"github.com/verofreitt/golang_microservice_stack/pkg/utils"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )
 

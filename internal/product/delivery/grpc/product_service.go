@@ -2,11 +2,15 @@ package grpc
 
 import (
 	"context"
-	"golang_microservice_stack/internal/models"
-	"golang_microservice_stack/internal/product"
 
 	"github.com/go-playground/validator/v10"
 	"github.com/opentracing/opentracing-go"
+	"github.com/verofreitt/golang_microservice_stack/internal/models"
+	"github.com/verofreitt/golang_microservice_stack/internal/product"
+	grpcErrors "github.com/verofreitt/golang_microservice_stack/pkg/grpc_errors"
+	"github.com/verofreitt/golang_microservice_stack/pkg/logger"
+	"github.com/verofreitt/golang_microservice_stack/pkg/utils"
+	productsService "github.com/verofreitt/golang_microservice_stack/proto/product"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )
 

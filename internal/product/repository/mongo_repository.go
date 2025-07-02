@@ -2,11 +2,13 @@ package repository
 
 import (
 	"context"
-	"golang_microservice_stack/internal/models"
 	"time"
 
 	"github.com/opentracing/opentracing-go"
 	"github.com/pkg/errors"
+	"github.com/verofreitt/golang_microservice_stack/internal/models"
+	productErrors "github.com/verofreitt/golang_microservice_stack/pkg/product_errors"
+	"github.com/verofreitt/golang_microservice_stack/pkg/utils"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.mongodb.org/mongo-driver/mongo"

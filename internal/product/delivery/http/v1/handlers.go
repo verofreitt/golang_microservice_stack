@@ -1,15 +1,18 @@
 package v1
 
 import (
-	"golang_microservice_stack/internal/middlewares"
-	"golang_microservice_stack/internal/models"
-	"golang_microservice_stack/internal/product"
 	"net/http"
 	"strconv"
 
 	"github.com/go-playground/validator/v10"
 	"github.com/labstack/echo/v4"
 	"github.com/opentracing/opentracing-go"
+	"github.com/verofreitt/golang_microservice_stack/internal/middlewares"
+	"github.com/verofreitt/golang_microservice_stack/internal/models"
+	"github.com/verofreitt/golang_microservice_stack/internal/product"
+	httpErrors "github.com/verofreitt/golang_microservice_stack/pkg/http_errors"
+	"github.com/verofreitt/golang_microservice_stack/pkg/logger"
+	"github.com/verofreitt/golang_microservice_stack/pkg/utils"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )
 

@@ -2,18 +2,24 @@ package server
 
 import (
 	"context"
-	"golang_microservice_stack/config"
-	"golang_microservice_stack/internal/interceptors"
-	"golang_microservice_stack/internal/middlewares"
-	"golang_microservice_stack/internal/product/delivery/kafka"
-	"golang_microservice_stack/internal/product/repository"
-	"golang_microservice_stack/internal/product/usecase"
 	"net"
 	"os"
 	"os/signal"
 	"strings"
 	"syscall"
 	"time"
+
+	productGrpc "github.com/verofreitt/golang_microservice_stack/internal/product/delivery/grpc"
+	productsHttpV1 "github.com/verofreitt/golang_microservice_stack/internal/product/delivery/http/v1"
+	productsService "github.com/verofreitt/golang_microservice_stack/proto/product"
+
+	"github.com/verofreitt/golang_microservice_stack/config"
+	"github.com/verofreitt/golang_microservice_stack/internal/interceptors"
+	"github.com/verofreitt/golang_microservice_stack/internal/middlewares"
+	"github.com/verofreitt/golang_microservice_stack/internal/product/delivery/kafka"
+	"github.com/verofreitt/golang_microservice_stack/internal/product/repository"
+	"github.com/verofreitt/golang_microservice_stack/internal/product/usecase"
+	"github.com/verofreitt/golang_microservice_stack/pkg/logger"
 
 	// Core dependencies
 	"github.com/go-playground/validator/v10"

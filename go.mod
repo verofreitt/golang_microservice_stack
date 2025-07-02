@@ -1,9 +1,9 @@
-module golang_microservice_stack
+module github.com/verofreitt/golang_microservice_stack
 
 go 1.24.4
 
 require (
-	github.com/AleksK1NG/products-microservice v0.0.0-20210226150238-59a9680b523b
+	github.com/verofreitt/golang_microservice_stack v0.0.0-20210226150238-59a9680b523b
 	github.com/avast/retry-go v3.0.0+incompatible
 	github.com/go-playground/validator/v10 v10.27.0
 	github.com/go-redis/redis/v8 v8.11.5

@@ -4,11 +4,11 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"golang_microservice_stack/internal/models"
 	"time"
 
 	"github.com/opentracing/opentracing-go"
 	"github.com/pkg/errors"
+	"github.com/verofreitt/golang_microservice_stack/internal/models"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 
 	"github.com/go-redis/redis/v8"

@@ -2,10 +2,11 @@ package kafka
 
 import (
 	"context"
-	"golang_microservice_stack/config"
 
 	"github.com/segmentio/kafka-go"
 	"github.com/segmentio/kafka-go/compress"
+	"github.com/verofreitt/golang_microservice_stack/config"
+	"github.com/verofreitt/golang_microservice_stack/pkg/logger"
 )
 
 // ProductsProducer interface

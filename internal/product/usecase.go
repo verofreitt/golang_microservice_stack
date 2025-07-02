@@ -2,7 +2,9 @@ package product
 
 import (
 	"context"
-	"golang_microservice_stack/internal/models"
+
+	"github.com/verofreitt/golang_microservice_stack/internal/models"
+	"github.com/verofreitt/golang_microservice_stack/pkg/utils"
 
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )

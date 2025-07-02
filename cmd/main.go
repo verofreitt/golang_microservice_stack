@@ -2,11 +2,16 @@ package main
 
 import (
 	"context"
-	"golang_microservice_stack/config"
-	"golang_microservice_stack/internal/server"
 	"log"
 
 	"github.com/opentracing/opentracing-go"
+	"github.com/verofreitt/golang_microservice_stack/config"
+	"github.com/verofreitt/golang_microservice_stack/internal/server"
+	"github.com/verofreitt/golang_microservice_stack/pkg/jaeger"
+	"github.com/verofreitt/golang_microservice_stack/pkg/kafka"
+	"github.com/verofreitt/golang_microservice_stack/pkg/logger"
+	"github.com/verofreitt/golang_microservice_stack/pkg/mongodb"
+	"github.com/verofreitt/golang_microservice_stack/pkg/redis"
 )
 
 // @title Products microservice
