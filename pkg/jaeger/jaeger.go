@@ -1,8 +1,9 @@
 package jaeger
 
 import (
-	"golang_microservice_stack/config"
 	"io"
+
+	"github.com/verofreitt/golang_microservice_stack/config"
 
 	"github.com/opentracing/opentracing-go"
 	"github.com/uber/jaeger-client-go"

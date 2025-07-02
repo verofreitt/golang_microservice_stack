@@ -2,8 +2,9 @@ package mongodb
 
 import (
 	"context"
-	"golang_microservice_stack/config"
 	"time"
+
+	"github.com/verofreitt/golang_microservice_stack/config"
 
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"

@@ -1,8 +1,9 @@
 package redis
 
 import (
-	"golang_microservice_stack/config"
 	"time"
+
+	"github.com/verofreitt/golang_microservice_stack/config"
 
 	"github.com/go-redis/redis/v8"
 )

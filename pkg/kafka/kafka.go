@@ -2,7 +2,8 @@ package kafka
 
 import (
 	"context"
-	"golang_microservice_stack/config"
+
+	"github.com/verofreitt/golang_microservice_stack/config"
 
 	"github.com/segmentio/kafka-go"
 )

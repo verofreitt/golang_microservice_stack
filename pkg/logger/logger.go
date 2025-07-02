@@ -1,8 +1,9 @@
 package logger
 
 import (
-	"golang_microservice_stack/config"
 	"os"
+
+	"github.com/verofreitt/golang_microservice_stack/config"
 
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
