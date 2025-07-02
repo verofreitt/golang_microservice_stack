@@ -1,6 +1,6 @@
 # Golang Microservice Stack
 
-Um projeto de microsserviços em Go para integrar Kafka, MongoDB, Prometheus e Grafana, desenvolvido como demo de portfólio.
+Um projeto de microsserviços em Go para integrar Kafka, MongoDB, Prometheus e Grafana.
 
 ## 🚀 Visão Geral
 
